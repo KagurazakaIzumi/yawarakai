@@ -1,0 +1,53 @@
+{
+    "app": {
+        "startTime": "開始時間",
+        "coreVersion": "バージョン番号",
+        "cliCommandUnknownPrompt": "不明なコマンドです。スペルを確認してください。そうでない場合、コマンドは存在しません。 \nヒント：使用 /help ヘルプを取得するコマンド、または使用する /aval 利用可能なコマンドのリストを取得するには \n入力してください /exit 終了",
+        "cliAvailiableCommand": "現在利用可能なコマンド",
+        "commandExecution": "ユーザーは現在コマンドを実行しています",
+        "starting": "起動中..."
+    },
+    "bot": {
+        "message": {
+            "from": "から",
+            "text": "メッセージ",
+            "group": "団体",
+            "replyto": "返信する",
+            "success": "成功"
+        },
+        "inlineQuery": {
+            "from": "から",
+            "query": "Inline リクエスト",
+            "answerto": "インラインデータを返す",
+            "success": "成功"
+        },
+        "callbackQuery": {
+            "from": "から",
+            "callback": "返品リクエストデータ",
+            "answerto": "コールバッククエリデータを返す",
+            "success": "成功"
+        },
+        "telegram": {
+            "commandParameterInvalid": "無効なパラメーター",
+            "commandParameterMissing": ["無効なパラメーター：","，必要なパラメーターが欠落していないか確認してください："],
+            "commandInvalid": "パラメータコマンドが正しくありません \nエグゼクティブ /telegram h または /telegram help ヘルプを得るには",
+            "helpCommand": "telegram コマンドは、開始および管理に使用されます Telegram Bot そして Telegram Client \n start     開始する Telegram Bot \n stop      やめて Telegram Bot",
+            "webhookSettingsWarning": "外部サーバーのコマンドラインモードを使用してWebhookを設定する場合、ここに表示されるWebhookは、Telegramサーバーに登録されたWebhookアドレスではない場合があります。"
+        }
+    },
+    "core": {
+        "redisAuthSuccess": "Redisサーバー認証が成功して接続されました",
+        "redisAuthFail": "Redisサーバーの検証に失敗しました",
+        "redisCausedShutdown": "Redis接続に失敗したため、ヤワラカイを終了する..."
+    },
+    "component": {
+        "readIn": "読む ",
+        "loaded": ["搭載部品 ", " から "],
+        "enabled": "有効化 ",
+        "disabled": "無効 ",
+        "reloaded": "過負荷 ",
+        "noComponentFound": ["一部のコンポーネントがロードされていません","コンポーネントがインストールされている場合は、ルートディレクトリにComponentsフォルダーが存在するかどうかを確認します。"],
+        "noValidConfigFound": ["一部のコンポーネントがロードされていません", "コンポーネントディレクトリが見つかりました。コンポーネントがインストールされている場合は、コンポーネントにconfig.jsonファイルがあるかどうかを確認してください"],
+        "configFileInvalid": ["ConfigFileInvalidError: \n", " プロファイルが正しくないか無効です"]
+    }
+}
